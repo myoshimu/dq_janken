@@ -1,0 +1,99 @@
+
+  body{ font-family: DRAGON QUEST;
+	font-size: 30pt;
+	color: #FFF;
+	background-color: #000000;
+/*http://commons.nicovideo.jp/material/nc80977*/
+}
+
+
+img{
+	clear:both;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom:20px;
+}
+
+
+.status {
+float:left;
+	width: 200px;
+height: 180px;
+margin: 0px auto;
+margin-top:40px;
+margin-bottom:40px;
+margin-left:200px;
+border: 2px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 0 4px #FFF inset;
+}
+
+.status > p{
+width: 160px;
+height: 140px;
+margin: 20px;
+white-space: pre;
+overflow: hidden;
+}
+
+
+.command {
+float:left;
+width: 150px;
+height: 180px;
+margin: 0px auto;
+margin-top:40px;
+margin-left:240px;
+border: 2px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 0 4px #FFF inset;
+}
+
+.command > p{
+width: 110px;
+height: 140px;
+margin: 20px;
+white-space: pre;
+overflow: hidden;
+}
+
+a{color:#FFF;
+text-decoration:none;}
+
+a:hover:before{content:'＞';
+margin:-10px;}
+
+
+.textboard {
+width: 640px;
+height: 180px;
+margin: 0px auto;
+border: 2px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 0 4px #FFF inset;
+}
+
+.textboard > p{
+width: 600px;
+height: 140px;
+margin: 20px;
+white-space: pre;
+overflow: hidden;
+-webkit-animation: ozDq 2s steps(70, end) ;
+/* プロパティは順に name, duration, timing-function です */
+}
+@-webkit-keyframes ozDq {
+/* 開始地点の指定 */
+from { width: 0; }
+}
+.textboard > p:after {
+content: '＞';
+-webkit-animation: ozPulse 1s infinite ease;
+/* プロパティは順に name, duration, iteration-count, timing-function です */
+}
+@-webkit-keyframes ozPulse {
+/* 透明度の指定 */
+from { opacity: 1; }
+to { opacity: 0; }
+}

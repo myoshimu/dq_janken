@@ -1,0 +1,159 @@
+
+body{ font-family: DRAGON QUEST;
+	font-size: 30pt;
+	color: #FFF;
+	background-color: #000000;
+	width:800px;
+/*http://commons.nicovideo.jp/material/nc80977*/
+}
+
+
+.cheese {margin-bottom:60px;
+		background: url("img/cheese.jpg") no-repeat center;
+text-align: center;
+}
+
+img{
+  clear:both;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom:20px;
+}
+
+
+.status {
+	width: 200px;
+height: 180px;
+margin: 0px auto;
+margin-top:40px;
+margin-bottom:40px;
+margin-left:80px;
+border: 2px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 0 4px #FFF inset;
+}
+
+.status > p{
+width: 160px;
+height: 140px;
+margin: 20px;
+white-space: pre;
+overflow: hidden;
+}
+
+
+.command {
+width: 150px;
+height: 180px;
+margin: 0px auto;
+margin-top:30px;
+margin-left:240px;
+border: 2px solid #000;
+border-radius: 5px;
+position:absolute; 
+top:10px; 
+left:300px; 
+background-color: #000000;
+box-shadow: 0 0 0 4px #FFF inset;
+}
+
+.command > p{
+width: 110px;
+height: 140px;
+margin: 20px;
+white-space: pre;
+overflow: hidden;
+}
+
+.play{color:#FFF;
+text-decoration:none;}
+
+a{color:#FFF;
+text-decoration:none;}
+
+a:hover:before{content:'＞';
+margin:-10px;}
+
+
+
+#backgound {
+position:relative; 
+}
+
+
+
+
+
+.textboard {
+width: 640px;
+height: 180px;
+margin: 0px auto;
+border: 2px solid #000;
+border-radius: 5px;
+box-shadow: 0 0 0 4px #FFF inset;
+}
+
+.textboard > p{
+width: 600px;
+height: 140px;
+margin: 20px;
+white-space: pre;
+overflow: hidden;
+-webkit-animation: ozDq 2s steps(70, end) ;
+/* プロパティは順に name, duration, timing-function です */
+}
+@-webkit-keyframes ozDq {
+/* 開始地点の指定 */
+from { width: 0; }
+}
+
+.textboard > p:after {
+content: '＞';
+-webkit-animation: ozPulse 1s infinite ease;
+/* プロパティは順に name, duration, iteration-count, timing-function です */
+}
+@-webkit-keyframes ozPulse {
+/* 透明度の指定 */
+from { opacity: 1; }
+to { opacity: 0; }
+}
+
+
+
+
+.textboard2 {
+width: 640px;
+height: 200px;
+margin: 0px auto;
+border: 2px solid #000;
+border-radius: 5px;
+position:absolute; 
+top:350px; 
+left:100px; 
+background-color: #000000;
+box-shadow: 0 0 0 4px #FFF inset;
+}
+.textboard2
+ > p{
+width: 600px;
+height: 140px;
+margin: 20px;
+white-space: pre;
+overflow: hidden;
+/*-webkit-animation: ozDq 2s steps(70, end) ;*/
+}
+@-webkit-keyframes ozDq {
+from { width: 0; }
+}
+
+.textboard2 > p:after {
+content: '＞';
+-webkit-animation: ozPulse 1s infinite ease;
+/* プロパティは順に name, duration, iteration-count, timing-function です */
+}
+@-webkit-keyframes ozPulse {
+/* 透明度の指定 */
+from { opacity: 1; }
+to { opacity: 0; }
+}
